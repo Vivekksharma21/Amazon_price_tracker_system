@@ -8,7 +8,7 @@ import time
 def send_email(product_name, product_url):
     sender_email = "vivekrsashok@gmail.com"
     receiver_email = "vivekrsashok2002@gmail.com"
-    password = "Vivek5@1234"
+    password = ""
 
     message = MIMEMultipart()
     message["From"] = sender_email
